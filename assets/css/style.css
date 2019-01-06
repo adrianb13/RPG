@@ -1,0 +1,154 @@
+body {
+    background: url("../images/Background.jpg") no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+    .header {
+        font-size: 300%;
+        text-align: center; 
+        border-bottom: 3px dashed black;
+        margin: 0px auto 15px auto;
+        padding: 15px 0  15px 0;
+        background-color: black;
+    }
+    .directions {
+        color: white;
+        text-align: center;
+        margin: 5px auto 5px auto;
+        width: 500px;
+    }
+h2 {
+    color: white;
+    text-shadow: 1px 1px red;
+    font-size: 150%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px auto 10px auto;
+    background-color: black;
+    width: 220px;
+}
+    .warriorBox {
+        width: 700px;
+        height: 172px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 10px auto 10px auto;
+        background-color: black;
+        box-shadow: 2px 2px white;
+    }
+    .fighter {
+        float: left;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 10px 11px 10px 11px;
+        width: 150px;
+        height: 150px;
+    }
+    .yoda {
+        background: url("../images/warrior1-yoda.jpg") no-repeat;
+        background-size: 170px 150px;
+    }
+    .luke {
+        background: url("../images/warrior2-lukeskywalker.jpg") no-repeat;
+        background-size: 170px 150px;
+    }
+    .vader {
+        background: url("../images/warrior3-darthvader.jpg") no-repeat;
+        background-size: 170px 150px;
+    }
+    .kylo {
+        background: url("../images/warrior4-kyloren.jpg") no-repeat;
+        background-size: 170px 150px;
+    }
+    .green {
+        border: 3px solid lime;
+        margin: 10px;
+    }
+    .blue {
+        border: 3px solid blue;
+        margin: 10px;
+    }
+    .red {
+        border: 3px solid red;
+        margin: 10px;
+    }
+    .black {
+        border: 1px solid black;
+        margin: 10px;
+        opacity: 0.5;
+    }
+    .none {
+        background: none;
+    }
+    .battleBox {
+        margin: 20px auto 20px auto;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 700px;
+        height: 280px;
+        background-color: black;
+    }
+    .floatleft {
+        float: left;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .floatright {
+        float: right;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .tlmargin {
+        margin: 25px auto 5px 60px;
+    }
+    .trmargin {    
+        margin: 25px 60px 5px auto;
+    }
+    .blmargin {
+        margin: 0 auto 10px 35px;
+    }
+    .brmargin {
+        margin: 0 35px 10px auto;
+    }
+    #playerChoice {
+        float: left;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin: 10px auto 10px 20px;
+        width: 150px;
+        height: 150px;
+    }
+    #actionBox {
+        float: left;
+        color: white;
+        font-size: 25px;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin: 55px auto auto 35px;
+        width: 280px;
+        height: auto;
+        text-align: center;
+    }
+    #enemyChoice {
+        float: right;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin: 10px 20px 10px auto;
+        width: 150px;
+        height: 150px;
+    }
+footer {
+    text-align: center;
+    color: rgb(0, 0, 92);
+    border-top: 2px solid lime;
+    background-color: lightblue;
+    opacity: 0.8;
+    margin: 0px;
+    padding: 5px;
+}
+a:link, a:visited, a:focus, a:hover, a:active {
+    text-decoration: underline;
+    color: rgb(0, 0, 92);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Light vs. Dark</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/images/Sabers.jpg">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+    <div class="header"><span style="color:white">Light </span><span style="color: lightgray">vs. </span><span style="color:red">Dark</span></div>
+    <p class="directions">  You must battle the best warriors of the universe. Some are friends, some are foes, but to be the best, you must prove that you can beat them all. Your attack power strengthens at each turn. Choose your opponents wisely since they have different counter-attack strengths.</p>
+    <h2>Choose your warrior:</h2>
+
+    <div class="warriorBox">
+        <div id="warrior1" class="fighter yoda"></div>
+        <div id="warrior2" class="fighter luke"></div>
+        <div id="warrior3" class="fighter vader"></div>
+        <div id="warrior4" class="fighter kylo"></div>
+        <div style="clear: both;"></div>
+    </div>
+    
+
+    <div class="battleBox">
+        <div class="floatleft tlmargin" style="color:white">Player</div>
+        <div class="floatright trmargin" style="color: white">Enemy</div>
+        <div style="clear: both;"></div>        
+
+        <div id="playerChoice"></div>
+        <div id="actionBox">
+            <div id="attack">Get Ready To Battle</div>
+            <div id="counter"></div>
+            <div id="reset"></div>
+        </div>
+        <div id="enemyChoice"></div>
+        <div style="clear: both;"></div>
+
+        <div class="floatleft blmargin" style="color:white">HP Left: <span id="playerHP">0</span></div>
+        <div class="floatright brmargin" style="color:white">HP Left: <span id="enemyHP">0</span></div>
+
+    </div>
+    <div style="clear: both;"></div>
+
+    <footer>
+            By Adrian Briones: For More, <a href="https://adrianb13.github.io/Responsive-Portfolio/">Click Here</a>
+    </footer>
+</body>
+</html>
